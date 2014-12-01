@@ -1,0 +1,124 @@
+body header{
+   overflow:hidden;
+   margin-left:20px;
+}
+
+body header .header-top{
+  overflow:hidden;
+  background-color:rgb(240, 239, 245);
+  font-size:20px;
+}
+
+body header .header-top .topleft {
+  float:left;
+  margin-left:120px;
+}
+body header .header-top .topright {
+  float:left;
+  margin-left:800px;
+}
+
+body header .header-left{
+ float: left;
+ padding-top: 30px;
+ padding-left: 30px;
+ padding-right: 136px;
+ padding-bottom: 155px;
+ margin-left: 120px;
+ margin-top: 45px;
+ background-color: rgb(240, 239, 245);
+ font-size:25px;
+}
+body header .header-left a{
+  text-decoration:none;
+  color:black;
+}
+
+body header .header-center{
+  float:left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+body header .header-center img{
+  width:500px;
+}
+
+body header .header-right{
+  float:left;
+  text-align:right;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+body header .header-right .deeppink{
+  color:deeppink;
+}
+
+body .disk{
+  float:left;
+  margin-left:125px;
+}
+
+body .disk-title {
+  margin-bottom: -1px;
+}
+body .disk img{
+  width:300px;
+  height:300px;
+  align:center;
+}
+body .disk1,.disk2,.disk3{
+  float:left;
+  text-align:center;
+}
+
+body  .disk2,.disk3{
+  margin-left:80px;
+}
+
+body .U-disk{
+  float:left;
+  margin-left:125px;
+}
+body .U-disk img{
+  width:300px;
+  height:300px;
+  align:center;
+}
+
+body .hard-disk{
+  float:left;
+  margin-left:125px;
+}
+body .hard-disk img{
+  width:300px;
+  height:300px;
+  align:center;
+}
+.intro{
+  align:center;
+  font-size:22px;
+}
+/*上方可重构*/
+body footer{
+  float:left;
+  margin-top:30px;
+  background-color:rgb(238, 233, 233);
+  padding-right: 175px;
+  padding-bottom: 50px;
+}
+
+body footer img{
+  width:480px;
+  height:200px;
+}
+
+.footer-left{
+  float:left;
+  margin-left:200px;
+}
+.footer-right{
+  float:left;
+  margin-left:220px;
+}
